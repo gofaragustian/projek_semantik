@@ -1,0 +1,32 @@
+/* Tambahan untuk mempercantik */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #007bff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* Grid anime card */
+
+.anime-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.anime-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.anime-card img {
+    object-fit: cover;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
